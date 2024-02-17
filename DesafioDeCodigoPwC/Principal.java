@@ -1,4 +1,5 @@
 import java.util.Scanner;
+import javax.swing.JOptionPane;
 
 public class Principal {
     public static void main(String[] args) {
@@ -6,25 +7,20 @@ public class Principal {
         
          try{ //try catch para verificação da entrada
             
-            
-            System.out.print("Digite o endereço: ");
-            String entrada = scanner.nextLine();
-            
+            String entrada = JOptionPane.showInputDialog(null, "Digite o endereço: ", "Validação de endereços", JOptionPane.QUESTION_MESSAGE);
 
-            while (!entrada.equals("encerrar")) {
+            while (entrada != null ) {
             	
             	Endereco endereco = new Endereco(entrada, "","");
                 endereco.tratarEndereco(entrada);
-                System.out.println("\n" + endereco.tratarEndereco(entrada));
-                System.out.print("\nDigite o endereço: ");
-                entrada = scanner.nextLine();
+                JOptionPane.showMessageDialog(null, endereco.tratarEndereco(entrada));
+                entrada = JOptionPane.showInputDialog(null, "Digite o endereço: ", "Validação de endereços", JOptionPane.QUESTION_MESSAGE);
             
-            }System.out.print("\nPrograma encerrado.");
+            }JOptionPane.showMessageDialog(null, "Programa encerrado.", "AVISO", JOptionPane.WARNING_MESSAGE);
 
         }catch(RuntimeException excecao){
-            System.out.println(excecao.getMessage());
+            JOptionPane.showMessageDialog(null, excecao.getMessage(), "AVISO", JOptionPane.WARNING_MESSAGE);
         }
 
         scanner.close();
     }
-}
