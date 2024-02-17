@@ -12,7 +12,7 @@ O objetivo deste programa é receber do usuário uma única String contendo o no
 
 # - Execução do projeto 
     
-Minha abordagem para este desafio foi tomar cada caso descrito no pdf como um problema individual, dessa forma, inicialmente fiz três programas diferentes que solucionassem individualmente os problemas propostos em cada caso, após isso, juntei os códigos em um para resolver todos os casos através de um único programa. Dessa forma, em um primeiro momento, tive 3 programas diferentes, cada um para resolver um dos casos descritos no pdf recebido com as instruções, após, um único programa, que resolvia todas as hipóteses e interagia com o usuário apenas por texto, via terminal, e ao final de tudo, tenho um programa com duas classes: "Principal" e "Endereco", onde foi aplicado encapsulamento e as interações do usuário passaram a ser feitas através de janelas da classe JOptionPane.
+Minha abordagem para este desafio foi tomar cada caso descrito no pdf como um problema individual, dessa forma, inicialmente fiz três programas diferentes que solucionassem individualmente os problemas propostos em cada caso, após isso, juntei todos os códigos em um para resolver todos os casos através de um único programa. Dessa forma, em um primeiro momento, tive 3 programas diferentes, cada um para resolver um dos casos descritos no pdf recebido com as instruções, após, um único programa, que resolvia todas as hipóteses e interagia com o usuário apenas por texto, via terminal, e ao final de tudo, tenho um programa com duas classes: "Principal" e "Endereco", onde foi aplicado encapsulamento e as interações do usuário passaram a ser feitas através de janelas da classe JOptionPane.
 
 # - Funcionamento do código
 
