@@ -1,8 +1,8 @@
-![logo projeot](https://github.com/lzgu/DesafioDeCodigoPwC/assets/157890445/f7f5574e-e621-46be-91fd-c6972d95d3bd)
-
+<div align="center">
+<img src="https://github.com/lzgu/DesafioDeCodigoPwC/assets/157890445/f7f5574e-e621-46be-91fd-c6972d95d3bd" width="500px" />
+</div>
 
 <h1 align = center>
-    <img src="logo projeot.png"/>
     <p align = center>Desafio de código PwC - Validação de endereços <p>
 </h1>
 
@@ -21,10 +21,11 @@ A classe Endereco, antes de qualquer coisa, verifica se a String recebida é val
 # - Executando os testes
 
 Exemplo do programa em funcionamento, com os casos de teste do pdf:
+<div align="center">
+<img src="https://github.com/lzgu/DesafioDeCodigoPwC/assets/157890445/f3fd6330-6880-4f69-b24a-280654281898" width="700px" />
+</div>
 
-<h1 align = center>
-    <img src="executando.gif"/>
-</h1>
+
     
 
 
